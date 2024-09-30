@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+
+# Rasa
+.rasa/
+
+# Streamlit
+# Streamlit caches
+.streamlit/
+
+# Databases
+*.db
+
+# Environment Variables
+.env
+
+# Docker
+docker/*.pyc
